@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threecybers</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/3b98e9f266.js" charset="utf-8"></script>
+  </head>
+  <body class="contenido">
+            <a class="navbar-item" href="https://www.facebook.com/threecybers">
+                <img alt="" src=".//logo.png" style="max-height: 180px" />
+            </a>
+    <section class="container col-xs-5 col-xs-offset-3">
+        <h1>CIFRAR</h1>
+      <div class="row">
+        <div class="cuadro-texto col-xs-12 col-md-6">
+            <textarea class="form-control" id="frase" rows="8" cols="80" placeholder="Frase ..." autofocus=""></textarea>
+            <button id ="accion" type="button" class="btn btn-success btn-block"><i class="fa fa-exchange"></i> Convertir</button>
+            <br><br>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+          <textarea class="form-control" id="cuadro" placeholder="Frase procesada ..." rows="8" cols="80"></textarea>
+          <button id="copyButton" type="button" class="btn btn-default btn-block"><i class="fa fa-clone"></i> Copiar</button>
+        </div>
+      </div>
+      <br><br>
+      </section>
+
+    <!--<footer class="container col-xs-5 col-xs-offset-3">
+      <p>Made with <i class="fa fa-camera-retro"></i> by <a href="https://www.facebook.com/threecybers" target="_blank" >Jeremy Orellana</a></p> 
+    </footer>  -->
+  <script src="js/cifrar.js" charset="utf-8"></script>
+</body> 
+
+ <body class="contenido2">
+    <section class="container col-xs-5 col-xs-offset-3">
+        <h1>DESCIFRAR</h1>
+      <div class="row">
+        <div class="cuadro2-texto col-xs-12 col-md-6">
+            <textarea class="form-control" id="frase2" rows="8" cols="80" placeholder="Frase ..." autofocus=""></textarea>
+            <button id ="accion2" type="button2" class="btn btn-success btn-block"><i class="fa fa-exchange"></i> Convertir</button>
+            <br><br>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+          <textarea class="form-control" id="cuadro2" placeholder="Frase procesada ..." rows="8" cols="80"></textarea>
+          <button id="copyButton" type="button" class="btn btn-default btn-block"><i class="fa fa-clone"></i> Copiar </button>
+        </div>
+      </div>
+      <br><br>
+      <!-- <div class="cuadro-texto row">
+        <div class="col-xs-12">
+          <a target="_blank" href="https://es.wikipedia.org/wiki/ROT13"><i class="fa fa-hand-pointer-o"></i> Quiero saber mas de ROT13</a>
+        </div>
+      </div> -->
+
+    </section>
+
+    <footer class="container col-xs-5 col-xs-offset-3">
+      <p>Made with <i class="fa fa-camera-retro"></i> by <a href="https://www.facebook.com/threecybers" target="_blank" >Threecybers y Cyberplace</a></p>
+    </footer>
+  <script src="js/descifrar.js" charset="utf-8"></script>
+</body>
+<!--import ncrypt from 'ncrypt-js';
+const encrypted = ncrypt.encrypt('This is my secret message', 'Secret key');
+console.log(encrypted);
+const decrypted = ncrypt.decrypt(encrypted);
+console.log(decrypted); -->
+</html>
